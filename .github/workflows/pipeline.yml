@@ -20,5 +20,4 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          echo ${{ secrets.DOCKERHUB_USERNAME }}
-          echo ${{ secrets.DOCKERHUB_TOKEN }}
+          echo "$PR_HEAD_REF"
